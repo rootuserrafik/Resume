@@ -1,0 +1,33 @@
+.singleCitems{
+    padding: 10px;
+    margin: 0 5px;
+    width: 100px;
+    height: 100px;
+    position: relative;
+}
+.clientLogo{
+    width: 80px;
+    transition: 0.2s;
+}
+.singleCitems:hover 
+.clientLogo{
+    opacity: 0;
+    /* visibility: hidden; */
+}
+.clientComTitle{
+    color: gray;
+    position: absolute;
+    vertical-align: middle;
+    text-align: center;
+    top: calc(25% - 25%);
+    left: calc(25% - 25%);
+    /* visibility: hidden; */
+    opacity: 0;
+    transition: 0.2s;
+}
+.singleCitems:hover 
+.clientComTitle{
+    /* visibility: visible; */
+    opacity: 1;
+    font-size: 24px;
+}

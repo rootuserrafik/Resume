@@ -1,0 +1,7 @@
+.bodyContentDet.dev.skills {
+	display: flex;
+	justify-content: space-between;
+}
+.bodyContentDet.dev.skills .bodyContent__SI {
+	width: 48%;
+}

@@ -1,0 +1,74 @@
+.App__Root{
+    background-color: blueviolet;
+    display: flex;
+    border-radius: 50px;
+    align-content: center;
+    min-height: 80vh;
+    align-items: center;
+    margin: 10vh auto;
+    max-width: 1280px;
+    flex: 1;
+
+}
+.MainContent {
+    color: #fff;
+    flex: 0.3;
+}
+.profileImages{
+    border: 2px solid #fff;
+    border-radius: 50%;
+    width: 180px;
+    margin: 20px 0;
+}
+.profileInfoText{
+    text-transform: capitalize;
+}
+.profileInfoText h1{
+    line-height: 0;
+}
+.profileInfoText h2{
+    font-weight: 300;
+}
+.MainContent ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.userSocialLink{
+    margin: 0;
+    padding: 0;
+    margin: 30px 0px 50px 0;
+}
+.userSocialLink li{
+    padding: 5px;
+}
+.userSocialLink li a{
+    text-decoration: none;
+    color: #fff;
+}
+.actionDownloadBtn{
+    border: 2px solid #fff;
+    font-size: 18px;
+    text-decoration: none;
+    color: #fff;
+    padding: 8px 26px;
+    border-radius: 50px;
+}
+.copyRightsText{
+    margin-top: 12px;
+    display:inline-block;
+    font-size: small;
+}
+
+
+
+
+
+/* Home Page Css */
+.SectionContent {
+	flex: 0.7;
+	border-radius: 40px;
+    position: relative;
+}

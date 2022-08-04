@@ -1,0 +1,22 @@
+.Home__Section {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	position: absolute;
+	top: -40vh;
+	right: 0;
+	height: 80vh;
+	background: #fff;
+	border-radius: 48px;
+	width: 100%;
+}
+h1.ProfileName{
+    font-size: 60px;
+    line-height: 40px;
+    margin: 0;
+    font-weight: bold;
+}
+h2.UserTitle{
+    font-weight: 300;
+    font-size: 36px;
+}

@@ -1,0 +1,43 @@
+.Home__Section.aboutMe {
+	z-index: 9;
+	overflow: scroll;
+	text-align: left;
+	display: block;
+}
+.sectionPadding{
+    padding: 0 50px;
+}
+.Home__Section.aboutMe .SubTitle{
+    padding-top: 10px;
+    font-weight: 500;
+}
+.Home__Section.aboutMe .pageHa{
+    font-size: 28px;
+    font-weight: bold;
+}
+.Home__Section.aboutMe ul.subInfo{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    text-transform: capitalize;
+    justify-content: space-between;
+}
+.Home__Section.aboutMe ul.subInfo li{
+    padding: 0px 16px;
+    border-radius: 5px;
+    border: 1px solid #ffffff00;
+    transition: 0.5s;
+}
+.Home__Section.aboutMe ul.subInfo li:hover{
+    border: 1px solid blueviolet;
+}
+.Home__Section.aboutMe ul.subInfo .subInfoTitle,
+.Home__Section.aboutMe ul.subInfo .subInfoTitleA{
+    line-height: 0;
+}
+
+.Home__Section.aboutMe .cataSection{
+    display: inline-block;
+    height: 100vh;
+}

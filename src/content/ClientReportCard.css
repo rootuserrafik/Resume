@@ -1,0 +1,13 @@
+svg.MuiSvgIcon-root.cricons {
+    font-size: 56px;
+    fill: blueviolet;
+}
+.topicTitle{
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.numberOfFeedback{
+    font-weight: 200;
+    line-height: 0;
+    color: gray;
+}

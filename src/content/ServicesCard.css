@@ -1,0 +1,24 @@
+.Single__Icon__Item{
+    width: calc(50% - 15px);
+    padding: 0px 15px 15px 0px;
+}
+.serSubHed{
+    display: flex;
+    align-items: center;
+}
+.servicesIcons{
+    width: 50px;
+    margin-right: 18px;
+}
+.servicesTitle{
+    padding-bottom: 20px;
+    font-size: 16px;
+    border-bottom: 1px solid #000;
+}
+.servicesSummary {
+    font-size: 14px;
+    line-height: 18px;
+	padding: 0;
+    margin: 0;
+    text-align: justify;
+}

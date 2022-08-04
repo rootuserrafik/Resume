@@ -1,0 +1,24 @@
+.apResCerDaCa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: 1px 1px 0px 1px #ddd;
+}
+.CertiImg{
+    width: 100px;
+}
+.apResCerDaCa .rightCont{
+    padding: 0px 25px;
+}
+.apResCerDaCa .certiTitle{
+    line-height: 8px;
+}
+.apResCerDaCa p{
+    padding: 0;
+    margin: 0;
+}
+.memebrshipDate{
+    color: gray;
+}

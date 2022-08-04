@@ -1,0 +1,57 @@
+.aprExpDC{
+    display: flex;
+    flex-direction: row;
+    text-align: right;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+.dataItem{
+    flex: 0.2;
+    margin-top: 20px;
+}
+.dataItem.divider{
+    text-align: center;
+    margin-top: 6.6%;
+    position: relative;
+    z-index: 2;
+}
+.dataItem.divider::after{
+    position: absolute;
+    top: -10px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+    margin: 0 auto;
+    width: 1px;
+    height: 210px;
+    content: "";
+    background-color: rgb(194, 194, 194);
+    z-index: -1;
+}
+.MuiSvgIcon-root.dividerStyle {
+	fill: blueviolet;
+	padding: 3px;
+	background-color: rgb(193, 141, 241);
+	border: 5px solid #ddd;
+	border-radius: 50%;
+	font-size: 12px;
+}
+.dataItem.con{
+    flex: 0.8;
+    text-align: left;
+}
+.dataItem .titleP{
+    margin: 10px 0;
+    line-height: 15px;
+}
+.itemsPlace{
+    padding: 0;
+    margin: 0;
+    color: gray;
+}
+.dataItem.con .itemsPlace{
+    color: rgb(26, 26, 26);
+    /* text-align: justify; */
+    word-spacing: 8px;
+}

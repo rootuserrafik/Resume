@@ -1,0 +1,65 @@
+.testimonListCard{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0;
+    border-bottom: 1px solid rgba(176, 196, 222, 0);
+    transition: 0.5s;
+}
+.testimonListCard:hover{
+    border-bottom: 1px solid lightsteelblue;
+}
+
+.testimonCollum{
+}
+.testimonCollum .left__Content{
+
+}
+.testimonCollum.bgShap,
+.testimonCollum .profilePic{
+    border-radius: 50%;
+}
+.testimonCollum.bgShap {
+	width: 155px;
+	height: 155px;
+	background: blueviolet;
+    position: relative;
+}
+.testimonCollum .profilePic{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 150px;
+    height: 150px;
+}
+.testimonialQuote {
+    position: absolute;
+    bottom: -22px;
+    left: -22px;
+}
+.testimonCollum.content{
+    width: 70%;
+}
+.MuiSvgIcon-root.testimonialQuote {
+	font-size: 70px;
+    transform: rotateZ(180deg);
+    fill: blueviolet;
+}
+.testimonUserProfileName,
+.testimonUserProfileText{
+    padding: 0;
+    margin: 0;
+}
+.testimonUserProfileName{
+    font-size: 18px;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+.testimonUserProfileTitle{
+    margin: 5px 0;
+    display: inline-block;
+}
+.testimonUserProfileText{
+    font-size: 14px;
+    line-height: 18px;
+}

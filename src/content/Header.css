@@ -1,0 +1,24 @@
+.App__Header {
+    /* flex: 0.1; */
+}
+nav.MainMenu ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+nav.MainMenu ul li{
+    display: block;
+}
+nav.MainMenu a .NavMenuIcon {
+	font-size: 36px;
+    color: #fff;
+    padding: 5px;
+    margin-left: -20px;
+    border: 1px solid #fff;
+}
+nav.MainMenu a .NavMenuIcon:hover,
+nav.MainMenu a .NavMenuIcon.selected {
+	color: #8a2be2;
+    background-color: #fff;
+    transition: .3s;
+}
